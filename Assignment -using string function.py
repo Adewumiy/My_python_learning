@@ -1,7 +1,7 @@
 mystring = 'adewumi'
 print(mystring.upper())
 
-mystring = 'Victoria'
+mystring = 'victoria'
 print(mystring.capitalize())
 
 mystring ='adewumi'
@@ -35,19 +35,19 @@ mystring ='adewumi'
 print(mystring.istitle())
 
 mystring ='adewumi'
-print(mystring.join('m'))
+print(mystring.join(['m', 's', 'd', 't']))
 
-mystring ='adewumi'
+mystring ='ADEWUMI'
 print (mystring.lower())
 
-mystring ='Victoria'
+mystring =' Victoria'
 print (mystring.lstrip())
 
 mystring='Victoria'
 print (mystring.replace('to', "ti"))
 
 mystring ='Victoria'
-print (mystring.rfind('c'))
+print (mystring.rfind('i'))
 
 mystring ='Victoria'
 print (mystring.rindex('a'))
@@ -55,16 +55,16 @@ print (mystring.rindex('a'))
 mystring ='Adewumi '
 print (mystring.rstrip())
 
-mystring ='Adewumi'
+mystring ='adewumi sabi programmer'
 print (mystring.rsplit())
 
-mystring ='Adewumi'
+mystring ='adewumi sabi programmer'
 print (mystring.split())
 
 mystring ='Adewumi'
 print (mystring.startswith('Y'))
 
-mystring ='Victoria'
+mystring =' Victoria '
 print (mystring.strip())
 
 mystring ='Victoria '
@@ -72,8 +72,7 @@ print (mystring.strip())
 
 mystring ='Victoria'
 print (mystring.swapcase())
-
-mystring ='Victoria'
+mystring ='Victoria sabi programmers'
 print(mystring.title())
 
 mystring ='Victoria'
