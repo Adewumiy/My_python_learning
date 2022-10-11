@@ -22,16 +22,16 @@ set7 = {12,57,43,1,2.4,"greet"} #set of hashbol
 print(set7)
 
 #Conversion
-set8=set('Sabi Programmers') #convert string to
+set8=set('Sabi Programmers') #convert string to set
 print(set8)
 
-set9 =set(['Sabi','Programmers']) #convert list
+set9 =set(['Sabi','Programmers']) #convert list to set
 print(set9)
 
-set10 = set(('Sabi','Programmers')) #convert tuple
+set10 = set(('Sabi','Programmers')) #convert tuple to set
 print(set10)
 
-set11 =set({1:'Sabi',2 : 'Programmers'}) #convert
+set11 =set({1:'Sabi',2 : 'Programmers'}) #convert dic to set
 print(set11)
 
 #modifying a set
@@ -131,7 +131,9 @@ print('new set16: ', set16)
 
 print(set17.issubset(set14))
 
-
+set14 ={1,2,3,4,5}
+set15 ={4,5,6,7,8}
+print(set14.symmetric_difference(set15))
 
 
 
